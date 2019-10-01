@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@master
     - name: update
       run: |
-        mkdir -p themes/kraiklyn && cd theme && git clone https://github.com/jsnjack/kraiklyn
+        mkdir -p themes/kraiklyn && cd themes && git clone https://github.com/jsnjack/kraiklyn
     - name: hugo-deploy-gh-pages
       uses: jenkins-zh/hugo-gh-actions@v0.0.1
       env:
