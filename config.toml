@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://jenkins-zh.github.io/jcli-docs/"
 languageCode = "en-us"
 title = "Jenkins CLI"
 theme = "kraiklyn"
