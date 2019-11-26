@@ -13,6 +13,13 @@ jobs:
     - name: update
       run: |
         mkdir -p themes/kraiklyn && cd themes && git clone https://github.com/jsnjack/kraiklyn
+    - name: gen-doc
+      run: |
+        curl -L https://github.com/jenkins-zh/jenkins-cli/releases/latest/download/jcli-linux-amd64.tar.gz|tar xzv
+        chmod u+x jcli
+        ./jcli -v
+        rm -rf content/commands/*
+        ./jcli doc content/commands
     - name: hugo-deploy-gh-pages
       uses: jenkins-zh/hugo-gh-actions@v0.0.1
       env:
