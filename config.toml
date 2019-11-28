@@ -1,4 +1,22 @@
 baseURL = "https://jenkins-zh.github.io/jcli-docs/"
 languageCode = "en-us"
 title = "Jenkins CLI"
-theme = "kraiklyn"
+theme = "hugo-theme-learn"
+
+contentDir = "content/en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableMissingTranslationPlaceholders = true
+
+[languages]
+  [languages.en]
+    weight = 1
+    languageName = "English"
+  [languages.zh]
+    languageCode = "zh-CN"
+    weight = 2
+    languageName = "中文"
+    contentDir = "content/zh"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
