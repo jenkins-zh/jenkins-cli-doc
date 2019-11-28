@@ -1,4 +1,5 @@
 theme:
+	mkdir themes
 	cd themes && git clone https://gitee.com/surenpi/hugo-theme-learn
 
 gen-cmd-doc:

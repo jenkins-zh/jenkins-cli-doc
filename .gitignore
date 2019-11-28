@@ -1,3 +1,6 @@
 public
 
 themes/*
+
+content/en/commands/*
+content/zh/commands/*
