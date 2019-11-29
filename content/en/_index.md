@@ -48,4 +48,4 @@ Read [this document](doc/README.md) for more details on how to use `jcli`.
 # Contribution
 
 If you're interested in this project. Please go through the
-[contribution guide](CONTRIBUTING.md). Any contributions are welcome.
+[contribution guide](https://github.com/jenkins-zh/jenkins-cli/blob/master/CONTRIBUTING.md). Any contributions are welcome.
