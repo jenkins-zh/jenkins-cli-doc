@@ -46,4 +46,4 @@ sudo mv jcli /usr/local/bin/
 
 # 贡献
 
-如果你对该项目感兴趣，请首先仔细阅读我们的[贡献指南](CONTRIBUTING.md)。我们欢迎任何形式的贡献。
+如果你对该项目感兴趣，请首先仔细阅读我们的[贡献指南](https://github.com/jenkins-zh/jenkins-cli/blob/master/CONTRIBUTING.md)。我们欢迎任何形式的贡献。
