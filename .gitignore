@@ -2,5 +2,5 @@ public
 
 themes/*
 
-content/en/commands/*
-content/zh/commands/*
+content/en/commands/[a-z]*
+content/zh/commands/[a-z]*
