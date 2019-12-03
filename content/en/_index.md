@@ -43,7 +43,7 @@ Here are other package managers:
 
 # Get started
 
-Read [this document](doc/README.md) for more details on how to use `jcli`.
+Read [this document](quickstart) for more details on how to use `jcli`.
 
 # Contribution
 
