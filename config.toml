@@ -12,6 +12,7 @@ enableMissingTranslationPlaceholders = true
   [languages.en]
     weight = 1
     languageName = "English"
+    contentDir = "content/en"
   [languages.zh]
     languageCode = "zh-CN"
     weight = 2
