@@ -5,7 +5,7 @@ theme = "hugo-theme-learn"
 
 contentDir = "content/en"
 defaultContentLanguage = "en"
-#defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 enableMissingTranslationPlaceholders = true
 
 [languages]
