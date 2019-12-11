@@ -2,7 +2,7 @@ init: theme gen-cmd-doc
 
 theme:
 	mkdir -p themes
-	cd themes && git clone https://gitee.com/surenpi/hugo-theme-learn
+	cd themes && git clone https://github.com/matcornic/hugo-theme-learn
 
 gen-cmd-doc:
 	jcli -v
