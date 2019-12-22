@@ -27,3 +27,5 @@ Jenkins 的 Web API 必须是通过令牌（Token）来访问，`jcli` 支持给
 jcli center start --admin-can-generate-new-tokens
 jcli user token -g --target-user target-user-name
 ```
+
+上面的第一条命令会启动 Jenkins 并设置为允许有管理员权限的用户为其他用户生成令牌。
