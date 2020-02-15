@@ -1,6 +1,6 @@
 ---
 title: "诊断"
-weight: 100
+weight: 900
 since: v0.0.24
 ---
 
