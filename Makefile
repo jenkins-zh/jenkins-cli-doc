@@ -1,5 +1,11 @@
 init: theme gen-cmd-doc
 
+copy-doc:
+	mkdir -p temp
+	cd temp && git clone https://github.com/jenkins-zh/jenkins-cli
+	cp temp/jenkins-cli/README-zh.md content/zh/_index.md
+	cp temp/jenkins-cli/README.md content/en/_index.md
+
 theme:
 	mkdir -p themes
 	cd themes && git clone https://github.com/matcornic/hugo-theme-learn

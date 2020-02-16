@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@master
     - name: update
       run: |
-        make theme
+        make theme copy-doc
     - name: gen-doc
       run: |
         curl -L https://github.com/jenkins-zh/jenkins-cli/releases/latest/download/jcli-linux-amd64.tar.gz|tar xzv

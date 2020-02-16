@@ -4,3 +4,5 @@ themes/*
 
 content/en/commands/[a-z]*
 content/zh/commands/[a-z]*
+
+temp
