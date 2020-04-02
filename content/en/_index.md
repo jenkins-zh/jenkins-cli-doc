@@ -22,6 +22,23 @@ brew tap jenkins-zh/jcli
 brew install jcli
 ```
 
+### auto-completion
+
+if you install iterm2 on your macOS，and you use `zsh`，you can follow the steps：
+
+```
+# cd ~/.oh-my-zsh/plugins
+// create incr folder
+# mkdir incr
+// download incr plugin
+# wget https://mimosa-pudica.net/src/incr-0.2.zsh
+// authorize incr 
+# chmod 777 ~/.oh-my-zsh/plugins/incr/incr-0.2.zsh
+# vim ~/.zshrc, and insert "source ~/.oh-my-zsh/plugins/incr/incr-0.2.zsh" in the "~/.zshrc"，save and quit
+// flush configuration
+# source ~/.zshrc
+```
+
 ## Linux
 
 To install `jcli` on your Linux OS, execute the following command:
