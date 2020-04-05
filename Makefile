@@ -11,7 +11,7 @@ theme:
 	cd themes && git clone https://github.com/matcornic/hugo-theme-learn
 
 gen-cmd-doc:
-	jcli -v
+	jcli version
 	rm -rf content/en/commands/[a-z]*.md
 	mkdir -p content/en/commands
 	jcli doc content/en/commands
